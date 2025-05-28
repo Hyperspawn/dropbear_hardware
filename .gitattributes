@@ -1,0 +1,4 @@
+*.step filter=lfs diff=lfs merge=lfs -text
+*.stmod filter=lfs diff=lfs merge=lfs -text
+*.f3z filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
