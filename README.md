@@ -8,22 +8,19 @@ It includes CAD files for the complete robot as well as modular subassemblies fo
 
 ## 🧱 Structure
 
-### 🔧 `assembly/`
+### 🔧 `Assembly/`
 - Full robot CAD as `.step` and `.f3z` (Fusion 360 archive with materials)
 
 ### 🦾 `subassemblies/`
 Modular mechanical parts, structured by limb:
 - `arms/`: Left & Right arms, Altair Inspire model, and finger prototypes
-- `head/`: Full head unit
+- `head/`: Full head unit (Also refer [Neck Assembly](https://github.com/robit-man/Dropbear-Neck-Assembly))
 - `legs/`: Left & Right legs
 - `pelvis/`: Central connector to legs and torso
 - `torso/`: Main structural housing and spine
 
-### 🖼 `images/`
+### 🖼 `Images/`
 Rendered PNG views for quick reference, docs, or presentations
-
-### 📤 `exports/` *(optional)*
-Clean STEP/STL exports of all parts for CAM/3D printing workflows
 
 ---
 
